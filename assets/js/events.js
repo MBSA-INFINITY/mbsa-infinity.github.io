@@ -6,7 +6,7 @@ var events = [
       <h3 class="featurette-heading fw-normal lh-1"><b>CREATE THE FUTURE - YPCSA CONNECT</b></h3> <br>
       <h5 style="color:grey"><b>NOVEMBER 2ND, 2022</b></h5> <br>
       <p style="max-width:50rem;font-size: 16px;color: grey;">Learn how to make it purposeful, profitable and patentable by this workshop from Lokesh Venkatswamy, CEO and Managing Director of Innomantra Consulting and Private Ltd.</p> <br>
-     <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
+     <a href="/event/create-future" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
     </div>
 
 
@@ -17,7 +17,7 @@ var events = [
 
     <h5 style="color:grey"><b>OCTOBER 7TH, 2022</b></h5> <br>
     <p style="max-width:50rem;font-size: 16px;color: grey;">Our Trivia Gameshow. Grab your seat for the most fun-filled event that magnifies your mind relaxation😌</p> <br>
-   <a href="/blog/ietnitk_intro" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
+   <a href="/event/lego-gambit" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
   </div>
 
 </div>`,
@@ -28,7 +28,7 @@ var events = [
 
       <h5 style="color:grey"><b>FEBRUARY 16TH, 2022</b></h5> <br>
       <p style="max-width:50rem;font-size: 16px;color: grey;">Our yearly cross-domain college-wide series of events!</p> <br>
-     <a href="/blog/ietnitk_intro" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
+     <a href="/event/innerve-21" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
     </div>
 
   </div>`,
@@ -38,7 +38,7 @@ var events = [
 
     <h5 style="color:grey"><b>JANUARY 28TH, 2022</b></h5> <br>
     <p style="max-width:50rem;font-size: 16px;color: grey;">An amazing three-day event with three different fun activities for all the folks which are sure to give you some respite from this new norm!</p> <br>
-   <a href="/blog/ietnitk_intro" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
+   <a href="/event/inkfiesta" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
   </div>
 
 </div>`,
@@ -48,7 +48,7 @@ var events = [
 
   <h5 style="color:grey"><b>JANUARY 14TH, 2022</b></h5> <br>
   <p style="max-width:50rem;font-size: 16px;color: grey;">Knowledge exchange program on basics of electronics(R,L,C) followed by competition on the same</p> <br>
- <a href="/blog/ietnitk_intro" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
+ <a href="/event/daretodesign" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read More</button> </a>
 </div>
 
 </div>`
