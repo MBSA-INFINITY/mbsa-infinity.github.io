@@ -8,8 +8,8 @@ var projects = [
      <p style="max-width:50rem;font-size: 16px;color: grey;">Train a deep learning model to recognise handwritten equations from images and then give the result after solving the equations.</p> <br>
      <p style="max-width:50rem;font-size: 16px;color: grey;">Built by Rachana P J, Dolly Gupta, M B Sai Aditya and Lalit Nagar</p> <br>
     <div class="row-md-12">
-       <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
-       <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
+       <a href="https://github.com/IET-NITK/HandwrittenEquationSolver" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
+       <a href="/project/equationsolver" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
     </div>
    </div>
 
@@ -22,8 +22,8 @@ var projects = [
    <h5 style="color:grey"><b>CIPHER</b></h5> <br>
    <p style="max-width:50rem;font-size: 16px;color: grey;">Built by Suyash Satish Chintawar, Feyaz Baker, Venkat Rohit Merugu, Naveen Kumar, Gaurav Kumar and Sahana</p> <br>
    <div class="row-md-12">
-     <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
-     <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
+     <a href="https://github.com/IET-NITK/YT-Transcript-Summarizer" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
+     <a href="/project/youtubetranscriptsummarizer" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
   </div>
  </div>
 
@@ -38,8 +38,8 @@ var projects = [
   <p style="max-width:50rem;font-size: 16px;color: grey;">Built by Attada Ramprasad, Pooja Gayathri Kanala, Sharuf Baig and K Snehith Bhagavan
     </p> <br>
   <div class="row-md-12">
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
+    <a href="https://github.com/IET-NITK/AudioFingerprinting" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
+    <a href="/project/audiofingerprinting" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
  </div>
 </div>
 
@@ -54,8 +54,8 @@ var projects = [
   <p style="max-width:50rem;font-size: 16px;color: grey;">Built by Jagan Babu Korra, Vaishnavi Prakash Kalgutkar, K Sriram, Kowshic V and Ansh Bindlish
     </p> <br>
   <div class="row-md-12">
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
+    <a href="https://github.com/IET-NITK/A2SL-Translator" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
+    <a href="/project/audiotosignlanguagetranslator" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
  </div>
 </div>
 
@@ -68,8 +68,8 @@ var projects = [
   <p style="max-width:50rem;font-size: 16px;color: grey;">Built by Monika Agarwal, Verupaka Yashwanth Reddy, Adith Shekhar Gatty, Raunak Somani and Pragya Kiran
     </p> <br>
   <div class="row-md-12">
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
-    <a href="/blog/ion-thrusters" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
+    <a href="https://github.com/IET-NITK/SudokuSolver" style="text-decoration: none;color:white"> <button class="btn" style="background-color: black;color:white">Repository URL</button> </a>
+    <a href="/project/sudokusolver" style="text-decoration: none;color:white"> <button class="btn" style="background-color: purple;color:white">Read in Detail</button> </a>
  </div>
 </div>
 
