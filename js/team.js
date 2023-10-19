@@ -1,5 +1,5 @@
 global_team_details = {
-    "2023":`                     <div class="col-lg-12">
+    "2023":`<div class="col-lg-12">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: red;">
       <div class="team-desc">
         <u>
@@ -20,7 +20,7 @@ global_team_details = {
   <div class="col-lg-4">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: red;">
       <div class="team-desc">
-        <img src="../assets/img/empty.webp"  width="150" height="150" style="border-radius: 50%;" />
+        <img src="../assets/img/team/2023/aniket.png"  width="150" height="150" style="border-radius: 50%;" />
         <u>
           <h3>Aniket Tupe</h3>
         </u>
@@ -44,7 +44,7 @@ global_team_details = {
   <div class="col-lg-4">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: blue;">
       <div class="team-desc">
-        <img src="../assets/img/empty.webp"  width="150" height="150" style="border-radius: 50%;" />
+        <img src="../assets/img/team/2023/abhilash.png"  width="150" height="150" style="border-radius: 50%;" />
         <u>
           <h3>Abhilash Bharadwaj</h3>
         </u>
@@ -286,9 +286,9 @@ global_team_details = {
   <div class="col-lg-4">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: blue;">
       <div class="team-desc">
-         <img src="../assets/img/empty.webp"  width="150" height="150" style="border-radius: 50%;" />
+         <img src="../assets/img/team/2023/mbsa.jpg"  width="150" height="150" style="border-radius: 50%;" />
         <u>
-          <h3>M.B.Sai Aditya</h3>
+          <h3>M.B. Sai Aditya</h3>
         </u>
         <span>
           <h5 style="color: black;">Web Head</h5><br>
@@ -306,7 +306,6 @@ global_team_details = {
       </div>
     </div>
   </div>`,
-  "2022" :"mbsa"
 }
 
 
