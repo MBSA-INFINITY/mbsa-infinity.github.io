@@ -237,7 +237,7 @@ global_team_details = {
   <div class="col-lg-4">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: yellow;">
       <div class="team-desc">
-         <img src="../assets/img/empty.webp"  width="150" height="150" style="border-radius: 50%;" />
+         <img src="../assets/img/team/2023/akshita.png"  width="150" height="150" style="border-radius: 50%;" />
         <u>
           <h3>Akshita Jain</h3>
         </u>
