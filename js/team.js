@@ -261,7 +261,7 @@ global_team_details = {
   <div class="col-lg-4">
     <div class="team-member" style="border-style: solid; border-width: 0px 0px 3px 0px; border-color: yellow;">
       <div class="team-desc">
-         <img src="../assets/img/empty.webp"  width="150" height="150" style="border-radius: 50%;" />
+         <img src="../assets/img/team/2023/riya.png"  width="150" height="150" style="border-radius: 50%;" />
         <u>
           <h3>Riya Singh</h3>
         </u>
