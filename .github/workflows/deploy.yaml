@@ -21,30 +21,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build the MBSA's React Application
-      run: npm run build
+    # - name: Build the MBSA's React Application
+    #   run: npm run build
 
-    - name: gh-pages
-      run: npm run deploy
+    # - name: gh-pages
+    #   run: npm run deploy
 
     - name: Deploy to mbsa1 branch
       run: |
         git config --global user.email "mbsaiaditya@gmail.com"
         git config --global user.name "MBSA-INFINITY"
-        git checkout --orphan mbsa
-        ls
-        rm -rf node_modules
-        ls
-        rm -rf public
-        ls
-        rm -rf src
-        ls
-        git add -f build
-        cp -r build/. .
-        rm -rf build
-        rm -rf .github
-        rm -rf package-lock.json
-        rm -rf package.json
-        git add .
-        git commit -m "MBSA push"
-        git push --force origin mbsa
+        npm run deploy
