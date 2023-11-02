@@ -6,9 +6,9 @@ import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import Educations from "../../containers/education/Educations";
 import { experience } from "../../portfolio.js";
-import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
+import { projects } from "../../portfolio.js";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import Contact from "../contact/ContactComponent";
+// import Contact from "../contact/ContactComponent";
 import "../projects/Projects.css";
 import "../contact/ContactComponent.css";
 import { Fade } from "react-reveal";
@@ -17,7 +17,7 @@ import { style } from "glamor";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
+// const blogSection = contactPageData.blogSection;
 function Home(props) {
   const styles = style({
     backgroundColor: `${props.theme.accentBright}`,
@@ -30,11 +30,18 @@ function Home(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
-      <ExperienceAccordion sections={experience["sections"]} theme={props.theme} />
+      <ExperienceAccordion
+        sections={experience["sections"]}
+        theme={props.theme}
+      />
       <Educations theme={props.theme} />
-          <h1 className="skills-header" style={{ color: props.theme.text }} id="projects">
-            Projects
-          </h1>
+      <h1
+        className="skills-header"
+        style={{ color: props.theme.text }}
+        id="projects"
+      >
+        Projects
+      </h1>
       <div className="repo-cards-div-main">
         {projects.data.map((repo) => {
           return <ProjectCard repo={repo} theme={props.theme} />;
@@ -42,40 +49,44 @@ function Home(props) {
       </div>
 
       <div className="contact-main" id="contacts">
-      <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
-          <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
+        <div className="basic-contact">
+          <Fade bottom duration={1000} distance="40px">
+            <div className="contact-heading-div">
+              <div className="contact-heading-img-div">
+                <img
+                  className="profile-pic"
+                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  alt=""
+                />
+              </div>
+              <div className="contact-heading-text-div">
+                <h1
+                  className="contact-heading-text"
+                  style={{ color: props.theme.text }}
+                >
+                  {ContactData["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: props.theme.secondaryText }}
+                >
+                  {ContactData["description"]}
+                </p>
+                <SocialMedia />
+                <br />
+                <br />
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={greeting.resumeLink}
+                >
+                  See my Resume
+                </a>
+              </div>
             </div>
-            <div className="contact-heading-text-div">
-              <h1
-                className="contact-heading-text"
-                style={{ color: props.theme.text }}
-              >
-                {ContactData["title"]}
-              </h1>
-              <p
-                className="contact-header-detail-text subTitle"
-                style={{ color: props.theme.secondaryText }}
-              >
-                {ContactData["description"]}
-              </p>
-              <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
-            </div>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
       </div>
-    </div>
       <Footer theme={props.theme} />
     </div>
   );
