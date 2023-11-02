@@ -24,6 +24,9 @@ jobs:
     - name: Build the MBSA's React Application
       run: npm run build
 
+    - name: gh-pages
+      run: npm run deploy
+
     - name: Deploy to mbsa1 branch
       run: |
         git config --global user.email "mbsaiaditya@gmail.com"
