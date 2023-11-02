@@ -29,6 +29,6 @@ jobs:
 
     - name: Deploy to mbsa1 branch
       run: |
-        git config --global user.email "mbsaiaditya@gmail.com"
         git config --global user.name "MBSA-INFINITY"
+        git config --global user.email "mbsaiaditya@gmail.com"
         npm run deploy
