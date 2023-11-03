@@ -2,7 +2,7 @@
   "private": true,
   "name": "mbsaiaditya",
   "version": "1.2.0",
-  "homepage": "https://github.com/MBSA-INFINITY/mbsa-infinity.github.io",
+  "homepage": "https://github.com/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
