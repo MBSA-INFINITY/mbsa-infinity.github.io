@@ -5,6 +5,7 @@ import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import Educations from "../../containers/education/Educations";
+import Certifications from "../../containers/certifications/Certifications.js";
 import { experience } from "../../portfolio.js";
 import { projects } from "../../portfolio.js";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -30,6 +31,7 @@ function Home(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
+      <Certifications theme={props.theme} />
       <ExperienceAccordion
         sections={experience["sections"]}
         theme={props.theme}

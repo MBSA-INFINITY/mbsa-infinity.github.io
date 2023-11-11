@@ -14,8 +14,7 @@ const greeting = {
   logo_name: "< MBSA />",
   nickname: "hrishi1999 / picleric",
   full_name: "M.B.SAI ADITYA",
-  subTitle:
-    "Backend Web Developer, AI Enthusiast. Never stop Developing.",
+  subTitle: "Backend Web Developer, AI Enthusiast. Never stop Developing.",
   resumeLink:
     "https://drive.google.com/file/d/1FyAqYJOzhl-r0KAikUnMICO_NxcYwebU/view?usp=share_link",
   mail: "mailto:mbsaiaditya@gmail.com",
@@ -28,7 +27,8 @@ const socialMediaLinks = {
   gmail: "mbsaiaditya@gmail.com",
   gitlab: " ",
   facebook: "https://www.facebook.com/saiaditya.mantrarathnam/",
-  instagram: "https://www.instagram.com/m.b.saiaditya/",
+  instagram: "https://www.instagram.com/mbsaiaditya/",
+  twitter: "https://twitter.com/mbsaiaditya",
 };
 
 const skills = {
@@ -77,7 +77,6 @@ const skills = {
           fontAwesomeClassname: "logos-flask",
           style: {
             backgroundColor: "transparent",
-
           },
         },
         {
@@ -85,7 +84,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:fastapi",
           style: {
             backgroundColor: "transparent",
-
           },
         },
         {
@@ -94,7 +92,6 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#F7DF1E",
-
           },
         },
         {
@@ -118,7 +115,6 @@ const skills = {
             color: "#439743",
           },
         },
-
 
         {
           skillName: "MySQL",
@@ -199,7 +195,7 @@ const skills = {
           },
         },
       ],
-    }
+    },
   ],
 };
 
@@ -207,7 +203,8 @@ const degrees = {
   degrees: [
     {
       title: "National Institute of Technology Karnataka",
-      subtitle: "Bachelors of Technology (Minors in Information Technology, Majors in Mechanical)",
+      subtitle:
+        "Bachelors of Technology (Minors in Information Technology, Majors in Mechanical)",
       logo_path: "nitk.png",
       alt_name: "DAL",
       duration: "2020 - 2024",
@@ -236,116 +233,138 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
+      title: "A Tree on my name",
+      subtitle: "Tree Nation",
+      logo_path: "tree_nation.png",
+      certificate_link: "https://tree-nation.com/certificate/652d31a585c94",
+      alt_name: "HACKFEST",
+      color_code: "#fff475",
     },
     {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
-    },
-    {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Hacktoberfest 2023",
+      subtitle: "Hacktober - Holopin - Tree Nation",
+      logo_path: "hacktoberfest.svg",
       certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
-      alt_name: "deeplearning.ai",
-      color_code: "#47A048",
-    },
-    {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
-      alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
+        "https://www.holopin.io/hacktoberfest2023/userbadge/cloffy8fv07600fmotjewsakj",
+      alt_name: "HACKFEST",
       color_code: "#C5E2EE",
     },
     {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
+      title: "1st Position at HACKFEST 2023",
+      subtitle: "Synergia Labs",
+      logo_path: "hackfest2023.jfif",
+      certificate_link:
+        "https://drive.google.com/file/d/1qftP_KBfq0iCUUcLuXVZppvm7PRY_Z3Y/view",
+      alt_name: "HACKFEST",
+      color_code: "#F6B808",
     },
+    {
+      title: "1st Position at TECH THRIVE",
+      subtitle:
+        "Institute of Technology Guru Ghasidas Viswavidyalaya, Bilaspur (C.G.)",
+      logo_path: "tech_thrive.png",
+      certificate_link:
+        "https://drive.google.com/file/d/16uQCe0PS9p3xsEm01QK3eEBTJS3cWFdM/view",
+      alt_name: "TECH THRIVE",
+      color_code: "#ffc475",
+    },
+    {
+      title: "2nd Position at HACTRIX1.0",
+      subtitle: "Sri Krishna College of Technology, Coimbatore",
+      logo_path: "hactrix1.0.webp",
+      certificate_link:
+        "https://drive.google.com/file/d/16uQCe0PS9p3xsEm01QK3eEBTJS3cWFdM/view",
+      alt_name: "HACTRIX1",
+      color_code: "#ffbfae",
+    },
+    {
+      title: "3rd Position at Engineer Hackathon",
+      subtitle: "Computer Science Committe, NITK",
+      logo_path: "engineer_nitk.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1322wgFlhIc4tqBxdMhPFTUloSlTQA6al/view",
+      alt_name: "Engineer Hackathon",
+      color_code: "#b190b0",
+    },
+    // {
+    //   title: "Deep Learning Specialization",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#47A048",
+    // },
+    // {
+    //   title: "Sequence Models",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#F6B808",
+    // },
+    // {
+    //   title: "Convolutional Neural Networks",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Structuring Machine Learning Projects",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#E2405F",
+    // },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
+    // {
+    //   title: "Neural Networks and Deep Learning",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
+    //   alt_name: "Google",
+    //   color_code: "#7A7A7A",
+    // },
+    // {
+    //   title: "Improving Deep Neural Networks",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Android Developer Nanodegree",
+    //   subtitle: "Part of Google India Scholarship Program",
+    //   logo_path: "100.png",
+    //   certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
+    //   alt_name: "Google",
+    //   color_code: "#C5E2EE",
+    // },
+    // {
+    //   title: "InOut 4.0 Winner #2",
+    //   subtitle: "2017",
+    //   logo_path: "ino.png",
+    //   certificate_link: " ",
+    //   alt_name: "InOut",
+    //   color_code: "#fffbf3",
+    // },
   ],
 };
 
@@ -368,12 +387,13 @@ const experience = {
           duration: "Feb 2023 - Present",
           location: "Remote",
           description:
-            "I am currently working on backend of various inductry level projects and also writing tests for these projects.",
+            "Worked with various industry level projects with FastAPI and MongoDB as tech stack.",
           color: "#ee3c26",
         },
         {
           title: "Summer Research Intern",
-          company: "Department of Mathematical and Computational Sciences, NITK",
+          company:
+            "Department of Mathematical and Computational Sciences, NITK",
           company_url: "https://sugarlabs.org/",
           logo_path: "nitk.png",
           duration: "May 2022 - Jul 2022",
@@ -388,7 +408,7 @@ const experience = {
       title: "Club Positions",
       experiences: [
         {
-          title: "Web Team Lead",
+          title: "Webmaster",
           company: "The Institute of Engineering and Technology(IET), NITK",
           company_url: "https://iet.nitk.ac.in/",
           logo_path: "iet.jfif",
@@ -399,7 +419,7 @@ const experience = {
           color: "#4285F4",
         },
         {
-          title: "Lead Web Developer",
+          title: "Webmaster",
           company: "BAJA NITK (Media Team)",
           company_url: "https://iet.nitk.ac.in/",
           logo_path: "baja.png",
@@ -409,7 +429,6 @@ const experience = {
             "Developed and Lead the maintenance of the website for the club and Improvising the website with new UI/UX and adding features such as Gallery, Alumni etc",
           color: "#4285F4",
         },
-
       ],
     },
     {
@@ -426,8 +445,6 @@ const experience = {
             "Developed Lead generating websites for various realstate companies with appealing desing and fuctionally smooth backend with SEO.",
           color: "#4285F4",
         },
-   
-
       ],
     },
   ],
@@ -486,7 +503,8 @@ const projects = {
     },
     {
       name: "Sarcasm Detection using Recurrent Neural Networks",
-      url: "https://drive.google.com/file/d/1WOdXxU5wplpz0395qY3foNyJxSCTIfQa/view?usp=share_link",
+      url:
+        "https://drive.google.com/file/d/1WOdXxU5wplpz0395qY3foNyJxSCTIfQa/view?usp=share_link",
       description:
         "Revamped the Product/Movie Review System with Sarcastic Comments/Reviews segregator & Researched on Sentiment Analysis, Word Embedddings (GloVe, Word2Vec)",
       languages: [
@@ -554,7 +572,8 @@ const projects = {
     },
     {
       name: "Chat App (IT Minor Project)",
-      url: "https://drive.google.com/file/d/1WOdXxU5wplpz0395qY3foNyJxSCTIfQa/view?usp=share_link",
+      url:
+        "https://drive.google.com/file/d/1WOdXxU5wplpz0395qY3foNyJxSCTIfQa/view?usp=share_link",
       description:
         "Developed a chat app that can forward media/text in the exact sequence it was selected in, unlike Whatsapp. {Array of Dictionaries}",
       languages: [
@@ -577,26 +596,25 @@ const projects = {
       url: "https://github.com/IET-NITK/HandwrittenEquationSolver",
       description:
         "Collaborated and Created a Deep CNN for detecting handwritten equation and then solved it using custom scripts.( Validation Accuracy of 95.4 %)",
-        languages: [
-          {
-            name: "Tensorflow",
-            iconifyClass: "logos-tensorflow",
-          },
-          {
-            name: "Keras",
-            iconifyClass: "simple-icons:keras",
-          },
-          {
-            name: "Python",
-            iconifyClass: "logos-python",
-          },
-          {
-            name: "Flask",
-            iconifyClass: "logos-flask",
-          },
-        ],
+      languages: [
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "Keras",
+          iconifyClass: "simple-icons:keras",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "logos-flask",
+        },
+      ],
     },
-   
   ],
 };
 

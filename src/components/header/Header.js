@@ -78,8 +78,7 @@ function Header(props) {
             <span className="navicon"></span>
           </label>
           <ul className="menu">
-            <li>
-            </li>
+            <li></li>
             <li>
               <NavLink
                 className="ec"
@@ -87,7 +86,11 @@ function Header(props) {
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
-                onClick ={()=>{document.getElementById("skills").scrollIntoView({ behavior: 'smooth' })}}
+                onClick={() => {
+                  document
+                    .getElementById("skills")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Skills
               </NavLink>
@@ -99,7 +102,27 @@ function Header(props) {
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
-                onClick ={()=>{document.getElementById("experiences").scrollIntoView({ behavior: 'smooth' })}}
+                onClick={() => {
+                  document
+                    .getElementById("achievements")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Achievements
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="cr"
+                to="#"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+                onClick={() => {
+                  document
+                    .getElementById("experiences")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Experience
               </NavLink>
@@ -111,7 +134,11 @@ function Header(props) {
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
-                onClick ={()=>{document.getElementById("educations").scrollIntoView({ behavior: 'smooth' })}}
+                onClick={() => {
+                  document
+                    .getElementById("educations")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Education
               </NavLink>
@@ -123,7 +150,11 @@ function Header(props) {
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
-                onClick ={()=>{document.getElementById("projects").scrollIntoView({ behavior: 'smooth' })}}
+                onClick={() => {
+                  document
+                    .getElementById("projects")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Projects
               </NavLink>
@@ -135,7 +166,11 @@ function Header(props) {
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
-                onClick ={()=>{document.getElementById("contacts").scrollIntoView({ behavior: 'smooth' })}}
+                onClick={() => {
+                  document
+                    .getElementById("contacts")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Contact and Resume
               </NavLink>
