@@ -18,7 +18,11 @@ function Certifications(props) {
       </div>
       <div className="certs-body-div">
         <center>
-          <img src={mbsa} style={{ width: "90%", marginBottom: "30px" }} />
+          <img
+            alt="MBSA"
+            src={mbsa}
+            style={{ width: "90%", marginBottom: "30px" }}
+          />
         </center>
         {certifications.certifications.map((cert) => {
           return (
