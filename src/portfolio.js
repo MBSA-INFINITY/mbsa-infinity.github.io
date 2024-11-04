@@ -377,14 +377,25 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Internships",
+      title: "Full Time & Internships",
       experiences: [
+        {
+          title: "Software Development Engineer",
+          company: "Verint CES India Pvt Ltd.",
+          company_url: "https://verint.com/",
+          logo_path: "verint_logo.png",
+          duration: "Jun 2024 - Present",
+          location: "Remote",
+          description:
+            "Worked with Highly scalable industry level projects and getting hands-on-experience with cloud services and tools (Kubernetes, Docker, Jenkins, Harness etc.)",
+          color: "green",
+        },
         {
           title: "Back End Developer",
           company: "Greyfeathers Pvt Ltd",
           company_url: "https://greyfeathers.in/",
           logo_path: "greyfeathers.jfif",
-          duration: "Feb 2023 - Present",
+          duration: "Feb 2023 - Oct 2023",
           location: "Remote",
           description:
             "Worked with various industry level projects with FastAPI and MongoDB as tech stack.",
@@ -412,8 +423,8 @@ const experience = {
           company: "The Institute of Engineering and Technology(IET), NITK",
           company_url: "https://iet.nitk.ac.in/",
           logo_path: "iet.jfif",
-          duration: "Apr 2022 - present",
-          location: "Manglore,Karnataka",
+          duration: "Apr 2022 - Apr 2024",
+          location: "Manglore, Karnataka",
           description:
             "Lead the maintenance of the Gatsby website for the club and Developing CEMS, Worboard to Continuously Improvise the website.",
           color: "#4285F4",
