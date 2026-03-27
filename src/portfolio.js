@@ -9,12 +9,13 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hey there",
+  title: '"Hello World!"',
   title2: "MBSA",
   logo_name: "< MBSA />",
-  nickname: "hrishi1999 / picleric",
+  nickname: "mbsaiaditya / MBSA",
   full_name: "M.B.SAI ADITYA",
-  subTitle: "Backend Web Developer, AI Enthusiast. Never stop Developing.",
+  subTitle:
+    "A Software Engineer with ∞ curiosity and love for Tech. Never Stop Developing.",
   resumeLink:
     "https://drive.google.com/file/d/1FyAqYJOzhl-r0KAikUnMICO_NxcYwebU/view?usp=share_link",
   mail: "mailto:mbsaiaditya@gmail.com",
@@ -34,165 +35,152 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Backend Web Development",
+      title: "Backend & Microservices Architecture",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Developing strong backend with Flask, FastAPI and NodeJS",
-        "⚡ Implementing Secure Authentication using JWT, OpenId etc.",
-        "⚡ Connecting Databases such as Firebase, MongoDB and PostgresSQL",
+        "⚡ Architecting scalable microservices using Python (FastAPI/Flask), Go, and Node.js.",
+        "⚡ Designing secure Authentication workflows with Okta's Auth0, Azure Identity, and AWS Cognito.",
+        "⚡ Engineering distributed systems with high-throughput messaging like Kafka and NATS Jetstream.",
+        "⚡ Implementing robust REST and GraphQL APIs for enterprise-grade mobile and web platforms.",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          fontAwesomeClassname: "logos:python",
+          style: { color: "#3776AB" },
         },
         {
-          skillName: "Flask",
-          fontAwesomeClassname: "logos-flask",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "FastAPI",
-          fontAwesomeClassname: "simple-icons:fastapi",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            backgroundColor: "transparent",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
+          style: { color: "#00ADD8" },
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          fontAwesomeClassname: "logos:nodejs-icon",
+          style: { color: "#339933" },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon:fastapi",
+          style: { color: "#05998b" },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "devicon:flask",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "devicon:postgresql",
+          style: { color: "#336791" },
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
+          fontAwesomeClassname: "skill-icons:mongodb",
+          style: { color: "#47A248" },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "Redis/Valkey",
+          fontAwesomeClassname: "devicon:redis",
+          style: { color: "#DC382D" },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "GraphQL",
+          fontAwesomeClassname: "logos:graphql",
+          style: { color: "#DC382D" },
         },
       ],
     },
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Cloud, DevOps & Infrastructure",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Researched in the field of NLP (Sarcasm Detection).",
-        "⚡ Curoius to understand the mathematics behind the scenes.",
+        "⚡ AWS Certified Developer specializing in RDS, Aurora, DynamoDB, and S3.",
+        "⚡ Managing containerized workloads on Kubernetes and Red Hat's OKD platforms.",
+        "⚡ Orchestrating CI/CD pipelines using Harness and Jenkins for multi-region deployments.",
+        "⚡ Setting up full-stack observability with Datadog Synthetic monitoring and Gravitee APIM.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: { color: "#FF9900" },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
+          skillName: "GCP",
+          fontAwesomeClassname: "material-icon-theme:gcp",
+          style: { color: "#4285F4" },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "skill-icons:kubernetes",
+          style: { color: "#326CE5" },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          skillName: "Docker",
+          fontAwesomeClassname: "skill-icons:docker",
+          style: { color: "#2496ED" },
         },
         {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
+          skillName: "Podman",
+          fontAwesomeClassname: "devicon:podman",
+          style: { color: "#892CA0" },
+        },
+        {
+          skillName: "Harness",
+          fontAwesomeClassname: "logos:harness-icon",
+          style: { color: "#00ADEF" },
+        },
+        {
+          skillName: "Datadog",
+          fontAwesomeClassname: "devicon:datadog",
+          style: { color: "#632CA6" },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "devicon:jenkins",
+          style: { color: "#D24939" },
+        },
+        {
+          skillName: "Red Hat OKD",
+          fontAwesomeClassname: "logos:redhat-icon",
+          style: { color: "#EE0000" },
+        },
+      ],
+    },
+    {
+      title: "GenAI & Messaging Systems",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Integrating Generative AI via OpenAI, Stable Diffusion, and Midjourney APIs.",
+        "⚡ Handling high-frequency live traffic and synchronization for 150+ HORECA locations.",
+        "⚡ Managing large-scale data sync between regional S3 buckets and MongoDB clusters.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
+          style: { color: "#412991" },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "skill-icons:kafka",
+          style: { color: "#231F20" },
+        },
+        {
+          skillName: "NATS",
+          fontAwesomeClassname: "devicon:nats",
+          style: { color: "#27AAE1" },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "devicon:firebase",
+          style: { color: "#FFCA28" },
+        },
+        {
+          skillName: "S3",
+          fontAwesomeClassname: "logos:aws-s3",
+          style: { color: "#E10098" },
         },
       ],
     },
@@ -380,25 +368,25 @@ const experience = {
       title: "Full Time & Internships",
       experiences: [
         {
-          title: "Software Development Engineer",
+          title: "Software Engineer",
           company: "Verint CES India Pvt Ltd.",
           company_url: "https://verint.com/",
           logo_path: "verint_logo.png",
           duration: "Jun 2024 - Present",
-          location: "Remote",
+          location: "Bengaluru, India",
           description:
-            "Worked with Highly scalable industry level projects and getting hands-on-experience with cloud services and tools (Kubernetes, Docker, Jenkins, Harness etc.)",
-          color: "green",
+            "Led the end-to-end migration of Azure Identity V1 to Auth0 for WorkAssist microservices, reducing authorization costs by 50%. Orchestrated the production migration of UI-Shell Widgets Registry to the HYDRA (OKD) platform, managing 1500+ widgets and multi-region microservice deployments via Harness CI/CD and AWS RDS.",
+          color: "#00a982", // Verint brand green
         },
         {
-          title: "Back End Developer",
+          title: "Backend Developer Intern",
           company: "Greyfeathers Pvt Ltd",
           company_url: "https://greyfeathers.in/",
           logo_path: "greyfeathers.jfif",
           duration: "Feb 2023 - Oct 2023",
-          location: "Remote",
+          location: "Remote - India",
           description:
-            "Worked with various industry level projects with FastAPI and MongoDB as tech stack.",
+            "Developed backend services for 'thebeautifulmenu,' handling live traffic for 150+ cafes. Integrated Generative AI capabilities using Stable Diffusion and OpenAI APIs to automate content generation. Engineered secure multi-channel payment workflows by integrating Razorpay, Stripe, and PayPal gateways.",
           color: "#ee3c26",
         },
         {
@@ -408,7 +396,7 @@ const experience = {
           company_url: "https://sugarlabs.org/",
           logo_path: "nitk.png",
           duration: "May 2022 - Jul 2022",
-          location: "Manglore,Karnataka",
+          location: "Mangaluru, Karnataka",
           description:
             "Revamped the Product/Movie Review System with Sarcastic Comments/Reviews segregator & Researched on Sentiment Analysis, Word Embedddings (GloVe, Word2Vec)",
           color: "#4285F4",
@@ -416,44 +404,55 @@ const experience = {
       ],
     },
     {
-      title: "Club Positions",
+      title: "Leadership & Club Positions",
       experiences: [
         {
           title: "Webmaster",
-          company: "The Institute of Engineering and Technology(IET), NITK",
+          company: "The Institute of Engineering and Technology (IET), NITK",
           company_url: "https://iet.nitk.ac.in/",
           logo_path: "iet.jfif",
           duration: "Apr 2022 - Apr 2024",
-          location: "Manglore, Karnataka",
+          location: "Mangaluru, Karnataka",
           description:
-            "Lead the maintenance of the Gatsby website for the club and Developing CEMS, Worboard to Continuously Improvise the website.",
-          color: "#4285F4",
+            "Spearheaded the technical roadmap and maintenance of the Gatsby-based official website. Developed and integrated custom internal tools like CEMS (Club Event Management System) and Workboard to automate event coordination and member tracking.",
+          color: "#005596", // Official IET Blue
         },
         {
-          title: "Webmaster",
-          company: "BAJA NITK (Media Team)",
-          company_url: "https://iet.nitk.ac.in/",
+          title: "Webmaster (Media Team)",
+          company: "BAJA NITK",
+          company_url: "https://iet.nitk.ac.in/", // Consider checking if BAJA has a specific URL
           logo_path: "baja.png",
-          duration: "Dec 2021 - Apr 2022",
-          location: "Manglore,Karnataka",
+          duration: "Dec 2022 - Apr 2024",
+          location: "Mangaluru, Karnataka",
           description:
-            "Developed and Lead the maintenance of the website for the club and Improvising the website with new UI/UX and adding features such as Gallery, Alumni etc",
-          color: "#4285F4",
+            "Directed the end-to-end redesign of the club's web presence, focusing on a modern UI/UX overhaul. Engineered dynamic features including a comprehensive Alumni portal and an interactive media gallery to showcase competitive racing achievements.",
+          color: "#E53935",
         },
       ],
     },
     {
-      title: "Freelancer",
+      title: "Freelancing & Contract Work",
       experiences: [
         {
-          title: "Web Developer and Designer",
+          title: "Full-Stack Web Developer (Contract)",
+          company: "Noshkain Foods International Pvt Ltd.",
+          company_url: "https://noshkaininternational.com/",
+          logo_path: "noshkain_logo.png",
+          duration: "Dec 2023 - Jan 2024", // Adjust dates as per your actual timeline
+          location: "Remote",
+          description:
+            "Spearheaded the end-to-end architectural design and development of the global corporate platform. Engineered a high-performance frontend with advanced SEO instrumentation, resulting in enhanced global search visibility and sub-second page load times for an international audience.",
+          color: "#2E7D32",
+        },
+        {
+          title: "Web Developer & Designer",
           company: "Digitalstep360",
           company_url: "https://www.digitalstep360.com/",
           logo_path: "digitalstep360.jfif",
           duration: "Jun 2021 - Aug 2021",
-          location: "Manglore,Karnataka",
+          location: "Remote",
           description:
-            "Developed Lead generating websites for various realstate companies with appealing desing and fuctionally smooth backend with SEO.",
+            "Architected high-performance, SEO-optimized lead generation websites for real estate clients. Focused on delivering aesthetic UI designs coupled with functionally robust backends to maximize user conversion rates and search rankings.",
           color: "#4285F4",
         },
       ],
