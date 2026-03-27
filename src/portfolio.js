@@ -386,7 +386,7 @@ const experience = {
           duration: "Feb 2023 - Oct 2023",
           location: "Remote - India",
           description:
-            "Developed backend services for 'thebeautifulmenu,' handling live traffic for 150+ cafes. Integrated Generative AI capabilities using Stable Diffusion and OpenAI APIs to automate content generation. Engineered secure multi-channel payment workflows by integrating Razorpay, Stripe, and PayPal gateways.",
+            "Developed backend services for 'thebeautifulmenu', handling live traffic for 150+ cafes. Integrated Generative AI capabilities using Stable Diffusion and OpenAI APIs to automate content generation. Engineered secure multi-channel payment workflows by integrating Razorpay, Stripe, and PayPal gateways.",
           color: "#ee3c26",
         },
         {
@@ -420,7 +420,7 @@ const experience = {
         {
           title: "Webmaster (Media Team)",
           company: "BAJA NITK",
-          company_url: "https://iet.nitk.ac.in/", // Consider checking if BAJA has a specific URL
+          company_url: "https://baja-nitk-racing.github.io/",
           logo_path: "baja.png",
           duration: "Dec 2022 - Apr 2024",
           location: "Mangaluru, Karnataka",

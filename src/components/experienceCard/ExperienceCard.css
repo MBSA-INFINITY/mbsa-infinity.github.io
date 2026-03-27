@@ -70,7 +70,7 @@
 .experience-card-description {
   margin-top: 5px;
   margin-left: 10px;
-  text-align: justify;
+  text-align: left;
   margin-right: 20px;
   font-family: "Google Sans Regular";
 }
@@ -157,6 +157,6 @@
   .experience-card-description {
     margin-left: 14px;
     margin-right: 14px;
-    text-align: justify;
+    text-align: center;
   }
 }

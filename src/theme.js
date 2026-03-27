@@ -15,6 +15,7 @@ const lightTheme = {
   imageClothes: "#dce4f2",
   avatarMisc: "#e9ecf2",
   avatarShoes: "#ccd2e3",
+  laptopPixels: "#ccd2e3",
 };
 
 const darkTheme = {
@@ -30,8 +31,9 @@ const darkTheme = {
   skinColor2: "#FCB696",
   imageDark: "#292A2D",
   imageClothes: "#000000",
-  avatarMisc: "#212121",
+  avatarMisc: "#e9ecf2",
   avatarShoes: "#2B2B2B",
+  laptopPixels: "#ccd2e3",
 };
 
 export const themes = { light: lightTheme, dark: darkTheme };
