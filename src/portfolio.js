@@ -386,6 +386,7 @@ const experience = {
           description:
             "Led the end-to-end migration of Azure Identity V1 to Auth0 for WorkAssist microservices, reducing authorization costs by 50%. Orchestrated the production migration of UI-Shell Widgets Registry to the HYDRA (OKD) platform, managing 1500+ widgets and multi-region microservice deployments via Harness CI/CD and AWS RDS.",
           color: "#00a982", // Verint brand green
+          // skills: [{"text": "ACE Award", "link": "mbsaiaditya.in"}, {"text": "VIP Award", "link": "mbsaiaditya.in"}]
         },
         {
           title: "Backend Developer Intern",
@@ -397,6 +398,13 @@ const experience = {
           description:
             "Developed backend services for 'thebeautifulmenu', handling live traffic for 150+ cafes. Integrated Generative AI capabilities using Stable Diffusion and OpenAI APIs to automate content generation. Engineered secure multi-channel payment workflows by integrating Razorpay, Stripe, and PayPal gateways.",
           color: "#ee3c26",
+          skills: [
+            {
+              text: "Letter of Recommendation",
+              link:
+                "https://drive.google.com/file/d/1lIN2578s8ySNQdI4YVOR8ZnuHMcgeYc4/view?usp=sharing",
+            },
+          ],
         },
         {
           title: "Summer Research Intern",
@@ -409,6 +417,13 @@ const experience = {
           description:
             "Revamped the Product/Movie Review System with Sarcastic Comments/Reviews segregator & Researched on Sentiment Analysis, Word Embedddings (GloVe, Word2Vec)",
           color: "#4285F4",
+          skills: [
+            {
+              text: "Letter of Recommendation",
+              link:
+                "https://drive.google.com/file/d/1oaHvSVLl2_WjGT1NWP9h8MFGycPDNd0f/view?usp=sharing",
+            },
+          ],
         },
       ],
     },
@@ -463,6 +478,13 @@ const experience = {
           description:
             "Architected high-performance, SEO-optimized lead generation websites for real estate clients. Focused on delivering aesthetic UI designs coupled with functionally robust backends to maximize user conversion rates and search rankings.",
           color: "#4285F4",
+          skills: [
+            {
+              text: "Letter of Recommendation",
+              link:
+                "https://drive.google.com/file/d/16jVOaCSRTTp8Y1KVeldPZqrfKXidm_Ry/view?usp=sharing",
+            },
+          ],
         },
       ],
     },
