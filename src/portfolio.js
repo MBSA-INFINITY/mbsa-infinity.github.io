@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "A Software Engineer with ∞ curiosity and love for Tech. Never Stop Developing.",
   resumeLink:
-    "https://drive.google.com/file/d/1FyAqYJOzhl-r0KAikUnMICO_NxcYwebU/view?usp=share_link",
+    "https://drive.google.com/file/d/1fZHAZ3UbxCwm1QZuyt3847K0CBY66qP6/view?usp=sharing",
   mail: "mailto:mbsaiaditya@gmail.com",
 };
 
@@ -36,7 +36,7 @@ const skills = {
   data: [
     {
       title: "Backend & Microservices Architecture",
-      fileName: "FullStackImg",
+      fileName: "MBSABackend",
       skills: [
         "⚡ Architecting scalable microservices using Python (FastAPI/Flask), Go, and Node.js.",
         "⚡ Designing secure Authentication workflows with Okta's Auth0, Azure Identity, and AWS Cognito.",
@@ -150,7 +150,7 @@ const skills = {
     },
     {
       title: "GenAI & Messaging Systems",
-      fileName: "DataScienceImg",
+      fileName: "MBSAMessaging",
       skills: [
         "⚡ Integrating Generative AI via OpenAI, Stable Diffusion, and Midjourney APIs.",
         "⚡ Handling high-frequency live traffic and synchronization for 150+ HORECA locations.",
@@ -221,6 +221,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "AWS Developer Associate",
+      subtitle: "AWS DVA-C02",
+      logo_path: "aws-dva-c02.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1KOGLEzKqfdmpptLpm2iHlpsJqy8d_Gj0/view?usp=sharing",
+      alt_name: "AWS DVA-C02",
+      color_code: "#0fead7",
+    },
+    {
       title: "A Tree on my name",
       subtitle: "Tree Nation",
       logo_path: "tree_nation.png",
@@ -242,7 +251,7 @@ const certifications = {
       subtitle: "Synergia Labs",
       logo_path: "hackfest2023.jfif",
       certificate_link:
-        "https://drive.google.com/file/d/1qftP_KBfq0iCUUcLuXVZppvm7PRY_Z3Y/view",
+        "https://drive.google.com/file/d/1Fj9brT1Kt9I0wGT3hkSMs4q0FpvmtB7Y/view?usp=sharing",
       alt_name: "HACKFEST",
       color_code: "#F6B808",
     },
@@ -252,7 +261,7 @@ const certifications = {
         "Institute of Technology Guru Ghasidas Viswavidyalaya, Bilaspur (C.G.)",
       logo_path: "tech_thrive.png",
       certificate_link:
-        "https://drive.google.com/file/d/16uQCe0PS9p3xsEm01QK3eEBTJS3cWFdM/view",
+        "https://drive.google.com/file/d/1wmHneodXGFgWW8DhNeNytGRM2IH5Oy-1/view?usp=sharing",
       alt_name: "TECH THRIVE",
       color_code: "#ffc475",
     },
@@ -261,7 +270,7 @@ const certifications = {
       subtitle: "Sri Krishna College of Technology, Coimbatore",
       logo_path: "hactrix1.0.webp",
       certificate_link:
-        "https://drive.google.com/file/d/16uQCe0PS9p3xsEm01QK3eEBTJS3cWFdM/view",
+        "https://drive.google.com/file/d/1IT3_BbMMcaFvOAYBkE8GnCGmaV5KG-GM/view?usp=sharing",
       alt_name: "HACTRIX1",
       color_code: "#ffbfae",
     },
@@ -270,7 +279,7 @@ const certifications = {
       subtitle: "Computer Science Committe, NITK",
       logo_path: "engineer_nitk.png",
       certificate_link:
-        "https://drive.google.com/file/d/1322wgFlhIc4tqBxdMhPFTUloSlTQA6al/view",
+        "https://drive.google.com/file/d/1MFqAQouBF3MGEprnHLcxt7TqKiG8e-f7/view?usp=sharing",
       alt_name: "Engineer Hackathon",
       color_code: "#b190b0",
     },

@@ -25,3 +25,64 @@
     font-size: 30px;
   }
 }
+
+/* Container width management */
+.spotlight-wrapper {
+  width: 80vw;
+  margin: 40px auto 100px auto;
+  position: relative;
+}
+
+/* The Card Styling */
+.linkedin-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+/* Swiper Navigation Arrow Styling */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #55198b !important; /* Your theme color */
+  transform: scale(0.6); /* Smaller, sleeker arrows */
+}
+
+/* Swiper Pagination (Dots) Styling */
+.swiper-pagination-bullet-active {
+  background: #55198b !important;
+}
+
+.swiper-pagination {
+  bottom: -40px !important; /* Moves dots below the cards */
+}
+
+/* Mobile Fix: Arrows usually get in the way on mobile */
+@media (max-width: 768px) {
+  .spotlight-wrapper {
+    width: 80vw;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important; /* Use swipe gestures on mobile */
+  }
+}
+
+.spotlight-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Google Sans Medium"; /* Or your template's default font */
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .spotlight-header {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
