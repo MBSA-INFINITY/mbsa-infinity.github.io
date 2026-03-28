@@ -3,7 +3,7 @@ import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
-import mbsa from "../../assests/images/hactrix_sangyan01.png";
+// import mbsa from "../../assests/images/hactrix_sangyan01.png";
 
 // Swiper Components and Styles
 import { Swiper, SwiperSlide } from "swiper/react";
