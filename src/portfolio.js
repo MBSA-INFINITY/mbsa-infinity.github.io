@@ -400,7 +400,7 @@ const experience = {
           color: "#ee3c26",
           skills: [
             {
-              text: "Letter of Recommendation",
+              text: "Letter of Recommendation (CEO)",
               link:
                 "https://drive.google.com/file/d/1lIN2578s8ySNQdI4YVOR8ZnuHMcgeYc4/view?usp=sharing",
             },
@@ -419,7 +419,7 @@ const experience = {
           color: "#4285F4",
           skills: [
             {
-              text: "Letter of Recommendation",
+              text: "Letter of Recommendation (Prof. Kedarnath Senapati)",
               link:
                 "https://drive.google.com/file/d/1oaHvSVLl2_WjGT1NWP9h8MFGycPDNd0f/view?usp=sharing",
             },
@@ -480,7 +480,7 @@ const experience = {
           color: "#4285F4",
           skills: [
             {
-              text: "Letter of Recommendation",
+              text: "Letter of Recommendation (Founder)",
               link:
                 "https://drive.google.com/file/d/16jVOaCSRTTp8Y1KVeldPZqrfKXidm_Ry/view?usp=sharing",
             },
