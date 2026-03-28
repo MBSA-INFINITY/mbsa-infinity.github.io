@@ -31,11 +31,11 @@ function Home(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
-      <Certifications theme={props.theme} />
       <ExperienceAccordion
         sections={experience["sections"]}
         theme={props.theme}
       />
+      <Certifications theme={props.theme} />
       <Educations theme={props.theme} />
       <h1
         className="skills-header"

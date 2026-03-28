@@ -70,7 +70,7 @@
 .experience-card-description {
   margin-top: 5px;
   margin-left: 10px;
-  text-align: justify;
+  text-align: left;
   margin-right: 20px;
   font-family: "Google Sans Regular";
 }
@@ -157,6 +157,49 @@
   .experience-card-description {
     margin-left: 14px;
     margin-right: 14px;
-    text-align: justify;
+    text-align: center;
+  }
+}
+
+.experience-card-skills-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px;
+  justify-content: flex-start;
+}
+
+.experience-card-skill-pill {
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+  display: inline-block;
+}
+
+.experience-card-skill-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusting the logo for smaller screens if necessary */
+@media (max-width: 768px) {
+  .experience-card-skills-div {
+    justify-content: flex-start;
+  }
+}
+/* MOBILE ALIGNMENT */
+@media (max-width: 768px) {
+  .experience-card-skills-div {
+    /* Center tags on Mobile */
+    justify-content: center;
+  }
+
+  .experience-card-skill-pill {
+    font-size: 12px; /* Slightly smaller for mobile screens */
+    padding: 4px 10px;
   }
 }

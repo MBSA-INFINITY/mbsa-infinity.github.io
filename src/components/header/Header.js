@@ -97,22 +97,6 @@ function Header(props) {
             </li>
             <li>
               <NavLink
-                className="xp"
-                to="#"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-                onClick={() => {
-                  document
-                    .getElementById("achievements")
-                    .scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                Achievements
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 className="cr"
                 to="#"
                 tag={Link}
@@ -125,6 +109,22 @@ function Header(props) {
                 }}
               >
                 Experience
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="xp"
+                to="#"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+                onClick={() => {
+                  document
+                    .getElementById("achievements")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Achievements
               </NavLink>
             </li>
             <li>

@@ -4,6 +4,7 @@ import "./ExperienceCard.css";
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+
   return (
     <div
       className="experience-card"
@@ -59,6 +60,28 @@ function ExperienceCard(props) {
         >
           {experience["description"]}
         </p>
+
+        {/* NEW SECTION: Sequence Buttons / Skill Pills */}
+        {experience["skills"] && (
+          <div className="experience-card-skills-div">
+            {experience["skills"].map((skill, index) => (
+              <span
+                key={index}
+                className="experience-card-skill-pill"
+                onClick={() => {
+                  window.open(skill.link, "_blank");
+                }}
+                style={{
+                  border: `1px solid ${experience["color"]}`,
+                  color: theme.text,
+                  backgroundColor: `${experience["color"]}20`, // 20 adds transparency to the color
+                }}
+              >
+                {skill.text}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
