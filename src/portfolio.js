@@ -386,7 +386,13 @@ const experience = {
           description:
             "Led the end-to-end migration of Azure Identity V1 to Auth0 for WorkAssist microservices, reducing authorization costs by 50%. Orchestrated the production migration of UI-Shell Widgets Registry to the HYDRA (OKD) platform, managing 1500+ widgets and multi-region microservice deployments via Harness CI/CD and AWS RDS.",
           color: "#00a982", // Verint brand green
-          // skills: [{"text": "ACE Award", "link": "mbsaiaditya.in"}, {"text": "VIP Award", "link": "mbsaiaditya.in"}]
+          skills: [
+            {
+              text: "VIP Award",
+              link:
+                "https://drive.google.com/file/d/1_KVmApIuszRSCvZgksXzr6fvW-5JyOZH/view?usp=sharing",
+            },
+          ],
         },
         {
           title: "Backend Developer Intern",
@@ -442,7 +448,7 @@ const experience = {
           color: "#005596", // Official IET Blue
         },
         {
-          title: "Webmaster (Media Team)",
+          title: "Web Team Head",
           company: "BAJA NITK",
           company_url: "https://baja-nitk-racing.github.io/",
           logo_path: "baja.png",
@@ -451,6 +457,13 @@ const experience = {
           description:
             "Directed the end-to-end redesign of the club's web presence, focusing on a modern UI/UX overhaul. Engineered dynamic features including a comprehensive Alumni portal and an interactive media gallery to showcase competitive racing achievements.",
           color: "#E53935",
+          skills: [
+            {
+              text: "Certificate of Appreciation (NITK Surathkal)",
+              link:
+                "https://drive.google.com/file/d/1fq3ZZDe7ghQYJYH-FCLoXCTchiCX1bVZ/view?usp=sharing",
+            },
+          ],
         },
       ],
     },
