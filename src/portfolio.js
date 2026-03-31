@@ -388,6 +388,11 @@ const experience = {
           color: "#00a982", // Verint brand green
           skills: [
             {
+              text: "ACE Award",
+              link:
+                "https://www.linkedin.com/posts/mbsaiaditya_they-say-its-always-good-to-have-an-ace-share-7444571967279579136-QQAO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADf37JwBy3rWFLSVykx-5ihP85Yzc7fCg1k",
+            },
+            {
               text: "VIP Award",
               link:
                 "https://drive.google.com/file/d/1_KVmApIuszRSCvZgksXzr6fvW-5JyOZH/view?usp=sharing",

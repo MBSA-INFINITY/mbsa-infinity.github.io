@@ -16,6 +16,7 @@ function Certifications(props) {
   const theme = props.theme;
 
   const linkedInPosts = [
+    "7444571967279579136",
     "7424395204868304896",
     "7062840768649965569",
     "7246094202214727680",
