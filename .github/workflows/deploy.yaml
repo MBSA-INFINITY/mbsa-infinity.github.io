@@ -42,6 +42,7 @@ jobs:
         rm -rf .github
         rm -rf package-lock.json
         rm -rf package.json
-        git add .
+        git add -f blogs
+        git add -A
         git commit -m "MBSA push"
         git push --force origin mbsaiaditya
