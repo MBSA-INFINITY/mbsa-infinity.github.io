@@ -96,6 +96,17 @@ function Header(props) {
               </NavLink>
             </li>
             <li>
+              <a
+                className="ec"
+                href="https://mbsaiaditya.in/blogs"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ borderRadius: 5, color: theme.text, fontWeight: "bold"  }}
+              >
+                Blogs
+              </a>
+            </li>
+            <li>
               <NavLink
                 className="cr"
                 to="#"
