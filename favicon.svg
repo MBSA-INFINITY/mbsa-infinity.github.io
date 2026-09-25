@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: Professional Rounded Square -->
+  <rect width="512" height="512" rx="100" fill="#1a1a1a"/>
+  
+  <!-- Text: MBSA -->
+  <text 
+    x="50%" 
+    y="52%" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    font-family="Arial, sans-serif" 
+    font-weight="900" 
+    font-size="160" 
+    fill="#ffffff"
+    letter-spacing="-5">
+    MBSA
+  </text>
+  
+  <!-- Accent Line: Represents "Backend/Code" -->
+  <rect x="120" y="360" width="272" height="20" rx="10" fill="#00a982"/>
+</svg>
