@@ -21,6 +21,8 @@ Two scenarios were run:
 - **Scenario A**: 50 concurrent workers, PGBouncer `default_pool_size=20` (real backend connections capped well below client demand)
 - **Scenario B**: 120 concurrent workers (intentionally above Postgres's `max_connections=100`), PGBouncer `default_pool_size=50`
 
+#### Link to codebase --> https://github.com/MBSA-INFINITY/PGBouncer-vs-Postgres
+
 ## Results
 
 ### Scenario A — 50 concurrent clients, pool size 20
