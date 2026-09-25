@@ -373,18 +373,30 @@ const experience = {
     "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
+  
     {
       title: "Full Time & Internships",
       experiences: [
+        {
+          title: "Senior Software Engineer",
+          company: "Verint CES India Pvt Ltd.",
+          company_url: "https://verint.com/",
+          logo_path: "verint_logo.png",
+          duration: "Aug 2026 - Present",
+          location: "Bengaluru, India",
+          description:
+            "Currently working as a part of Verint's CloudRec Team which is a Multi Tenant, Multi Region Text/Audio/Video Ingestion, Ecryption and Storage Platform. It manages the life cycle of all the Mutlimedia of a tenant and I am current;ly working on establishing the GES/GRS migration of CloudRec enabling a single tenant to have multiple production environment for multimedia ingestion.",
+          color: "#d0d714"
+        },
         {
           title: "Software Engineer",
           company: "Verint CES India Pvt Ltd.",
           company_url: "https://verint.com/",
           logo_path: "verint_logo.png",
-          duration: "Jun 2024 - Present",
+          duration: "Jun 2024 - Jul 2026",
           location: "Bengaluru, India",
           description:
-            "Led the end-to-end migration of Azure Identity V1 to Auth0 for WorkAssist microservices, reducing authorization costs by 50%. Orchestrated the production migration of UI-Shell Widgets Registry to the HYDRA (OKD) platform, managing 1500+ widgets and multi-region microservice deployments via Harness CI/CD and AWS RDS.",
+            "Led the end-to-end migration of Azure Identity V1 to Auth0 for WorkAssist microservices, reducing authorization costs by 50%. Orchestrated the production migration of UI-Shell Widgets Registry to the HYDRA (OKD) platform, managing 1500+ widgets and multi-region microservice deployments via Harness CI/CD and AWS RDS.Engineered the foundational infrastructure for Journal Bot (screen journaling), configuring NATS Jetstream, AWS RDS (PostgreSQL), and Valkey on HYDRA, while automating multi-region microservice deployments via Harness CICD.",
           color: "#00a982", // Verint brand green
           skills: [
             {
