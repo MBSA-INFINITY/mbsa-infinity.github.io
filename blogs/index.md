@@ -9,6 +9,7 @@
 
 - ### [**Comparison of performance of Java vs Golang**](/blogs/java-vs-go-io-loads/)
 - ### [**K8S - StatefulSet vs Deployment vs ReplicaSet vs DaemonSet**](/blogs/k8s-controller-comparisons/)
+- ### [**Postgres vs PG Bouncer under Identical load**](/blogs/postgres-vs-pgbouncer/)
 <!-- - ### [**4 Core Object Oriented Programming Principles**](/blogs/4-core-oops-principles/)
 - ### [**20 Important System Design Concepts**](/blogs/20-important-system-design-concepts/) -->
 
